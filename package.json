@@ -1,6 +1,6 @@
 {
-  "name": "canvas-select",
-  "version": "2.29.0",
+  "name": "picture-annotation",
+  "version": "2.30.0",
   "description": "一个用于图片标注的javascript库，基于canvas，简单轻量，支持矩形、多边形、点、折线、圆形、网格。",
   "main": "lib/canvas-select.min.js",
   "module": "lib/canvas-select.esm.js",
@@ -47,9 +47,12 @@
     "rollup-plugin-typescript2": "^0.36.0",
     "tslib": "^2.8.1"
   },
-  "homepage": "https://github.com/heylight/canvas-select",
+  "homepage": "https://github.com/rwerplus/picture-annotation",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heylight/canvas-select.git"
+    "url": "git+https://github.com/rwerplus/picture-annotation.git"
+  },
+  "dependencies": {
+    "jsdom": "^26.1.0"
   }
 }
